@@ -1,0 +1,44 @@
+
+public class Main {
+    public static void main(String[] args) {
+        // Double:64 bit -- 8 byte
+        // Float :32 bit -- 4 byte
+        
+        // automatic conversion : int--> float --> double
+        
+       /* double a = 5.25;
+        double b = 4.0;       
+        double c = 4.d;         // double types
+        double d = 4.23d;
+        
+        System.out.println(c); */
+        
+        
+       /* 
+        float a = (float) 5.0;
+        float b = 5f;
+        float c = 5.2f;
+        // float d = 5.0;  // false */    
+   /* int a = 22/7;
+    float b = 22f/7f;
+    double c = 22d/7d;
+    
+        System.out.println("a:"+a);
+        System.out.println("b:"+b);
+        System.out.println("c:"+c);
+    */
+        
+        
+        double integer1 = 70.25;
+        double integer2 = 60d;
+        double integer3 = 80.2;
+        
+        float a = 70.25f;
+        float b  = 60f;
+        float c = 80.2f;
+        
+        System.out.println("average :"+ (integer1+integer2+integer3)/3);
+        System.out.println("average2 :"+ (a+b+c)/3);
+        
+    }
+}
