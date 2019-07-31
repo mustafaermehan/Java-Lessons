@@ -1,0 +1,28 @@
+// veri tiplerinin alabileceği değer aralıkları
+public class Main {
+    public static void main(String[] args) {
+        // byte--> short-->int-->long
+        /*int a=4;
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        byte b = 100;
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Byte.MIN_VALUE);
+        short c=100;
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(Short.MIN_VALUE);
+        long d=100;
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Long.MIN_VALUE);
+      */
+        short j = 1000;
+        int i = (j/2);   // java does automatic conversion here
+        int k = j;
+        
+        
+        byte a = 100;
+        byte b = (byte) (a/2); //if it doesn't automatically convert
+        System.out.println(b);
+    }
+    
+}
