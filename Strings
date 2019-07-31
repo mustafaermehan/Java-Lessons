@@ -1,0 +1,30 @@
+
+public class Main {
+    public static void main(String[] args) {
+        String a = "Hello";
+        System.out.println(a + " Welcome...");
+        
+        String x = "Java ";
+        String y = "Programming ";
+        String z = "Language";
+        
+        String temp = x + y + z;
+        System.out.println(" temp:" + temp);
+        
+        String b = "Hello";
+        int c = 35;
+        
+        String d = b + c;
+        
+        System.out.println(d);
+        
+        
+        String j = "Java\tProgramming\tLanguage"; // tab key space
+        String k = "Java\nProgramming\nLanguage"; // new line
+        
+        System.out.println(j);
+        System.out.println(k);
+         
+    }
+    
+}
