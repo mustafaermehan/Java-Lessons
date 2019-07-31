@@ -1,2 +1,2 @@
 # Java-Lessons
-Variables
+this lesson is prepared for you to learn java
