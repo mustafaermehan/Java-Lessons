@@ -1,0 +1,35 @@
+
+import java.util.Scanner;
+
+
+public class Main {
+    
+    public static void main(String[] args) {
+       // number swap
+        Scanner scanner = new Scanner (System.in);
+        
+        int first_integer;
+        int second_integer;
+        
+        System.out.print("First number :");
+        first_integer = scanner.nextInt();
+        
+        System.out.print("Second number :");
+        second_integer = scanner.nextInt();
+        System.out.println("Before swap :");
+        
+        System.out.println("First number :" + first_integer + " Second number :" + second_integer);
+        
+        int temp = first_integer;
+        first_integer = second_integer;
+        second_integer = temp;
+        
+        System.out.println("After swap : ");
+        
+        System.out.println("First number :" + first_integer + " Second number :" + second_integer);
+        
+        
+        
+    }
+    
+}
