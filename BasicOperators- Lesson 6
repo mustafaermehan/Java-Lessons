@@ -1,0 +1,32 @@
+
+public class Main {
+    public static void main(String[] args) {
+       /* 
+        System.out.println(3 + 4);
+        System.out.println(3 - 5f);
+        System.out.println(10 / 4); // int variables
+        System.out.println(10d / 4);
+        System.out.println(3 * 4.5);
+        System.out.println(10 % 3);
+       */
+        /*
+        int a = 4;
+        a = a + 2; // long method
+        
+        System.out.println(a);
+        
+        int b = 4;
+        b += 2; // short method
+        
+        System.out.println(b);
+         int c = 6;
+         c *= 3;
+        System.out.println(c);
+        */
+        
+        System.out.println(3 + 4 * 5);
+        System.out.println(3f /4 + (4 * 5));
+        
+    }
+    
+}
