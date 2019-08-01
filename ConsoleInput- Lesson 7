@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+     Scanner scanner = new Scanner(System.in);  //CTRL+SHIFT+I
+     /*
+        System.out.println("Please enter your age");
+        
+        int age = scanner.nextInt();
+        
+        System.out.println("age : " + age );
+     */
+     
+       /*
+        System.out.println("Please enter decimal");
+        
+        double decimal = scanner.nextDouble();
+        
+        System.out.println("decimal : " + decimal );
+       */ 
+        /*
+        System.out.println("Please enter string");
+        
+        String line = scanner.nextLine();
+        
+        System.out.println("line : " + line );
+        */
+     
+     if(scanner.hasNextInt()){
+         
+         int number = scanner.nextInt();
+         System.out.println("Number :" + number);
+     }
+     else {
+         
+         System.out.println("Please enter a number");
+     }
+        
+    }
+    
+}
